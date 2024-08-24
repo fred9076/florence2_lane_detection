@@ -92,7 +92,6 @@ ENV/
 env.bak/
 venv.bak/
 
-images/*
 florence2lane_data/*
 output/*
 tulane_model_checkpoints/*
