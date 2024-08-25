@@ -8,9 +8,11 @@ Florence-2 is a powerful yet relatively small multimodal model that can perform 
 - Region Segmentation
 - Vocabulary Segmentation
 
+Unlike the predefined tasks, the new tasks such as lane detection is a bit more complex as it requires the model to learn the task_token (OD_LANE in this case) and the format of the output (Polylines). So it takes more time to train that the predefined tasks.
+
 I have not tried the other tasks, but I believe it should be similar to the lane detection task that contains text output and/or point sets output, such as 2D pose estimation.
 
-As shown below, the results and generalization are not perfect as the Tusimple_lane dataset is small. You can try yourself on larger dataset such as CurveLanes.
+As shown below, the results are not perfect as the Tusimple_lane dataset is small and not diverse. You can try yourself on larger dataset such as CurveLanes.
 
 ![Alt text](images/val_results/image_0_epoch_50.png)
 ![Alt text](images/val_results/image_2_epoch_50.png)
@@ -25,6 +27,7 @@ conda env create -f environment.yml -n florence2
 conda activate florence2
 pip install -r requirements.txt
 ```
+You also need to register an account on Huggingface https://huggingface.co/ and get your own Huggingface API key to fine-tune the model.
 
 
 
