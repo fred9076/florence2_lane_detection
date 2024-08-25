@@ -3,9 +3,9 @@
 Florence-2 is a powerful yet relatively small multimodal model that can perform a variety of tasks. This repository contains code for fine-tuning Florence-2 model to do lane detection using TuSimple dataset. This is a simple demonstration of how to use Florence-2 for tasks that are not in the list of supported tasks 
 - Captioning
 - Optical Character Recognition
-- Object Detection
-- Region Detection (2D bounding box)
-- Region Segmentation (Polygon in 2D)
+- Object Detection (2D bounding box with class label)
+- Region Detection 
+- Region Segmentation
 - Vocabulary Segmentation
 
 I have not tried the other tasks, but I believe it should be similar to the lane detection task that contains text output and/or point sets output, such as 2D pose estimation.
