@@ -8,9 +8,9 @@ Florence-2 is a powerful yet relatively small multimodal model that can perform 
 - Region Segmentation
 - Vocabulary Segmentation
 
-Unlike the predefined tasks, the new tasks such as lane detection is a bit more complex as it requires the model to learn the task_token (OD_LANE in this case) and the format of the output (Polylines). So it takes more time to train that the predefined tasks.
+Unlike the predefined tasks, the new tasks such as lane detection is a bit more complex as it requires the model to learn the task_token (e.g. OD_LANE) and the format of the output (e.g. Polylines). So it takes much more time to train than the predefined tasks.
+I have not tried, but I believe it should also work similarly for tasks that contains text output and/or sparse point sets output, such as 2D pose estimation.
 
-I have not tried the other tasks, but I believe it should be similar to the lane detection task that contains text output and/or point sets output, such as 2D pose estimation.
 
 As shown below, the results are not perfect as the Tusimple_lane dataset is small and not diverse. You can try yourself on larger dataset such as CurveLanes.
 
@@ -19,6 +19,7 @@ As shown below, the results are not perfect as the Tusimple_lane dataset is smal
 ![Alt text](images/val_results/image_4_epoch_50.png)
 ![Alt text](images/val_results/image_6_epoch_50.png)
 ![Alt text](images/val_results/image_8_epoch_50.png)
+
 
 ## Installation
 
