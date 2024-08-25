@@ -12,11 +12,11 @@ I have not tried the other tasks, but I believe it should be similar to the lane
 
 As shown below, the results and generalization are not perfect as the Tusimple_lane dataset is small. You can try yourself on larger dataset such as CurveLanes.
 
-![Alt text](output/inference_results/epoch_50/val_results/image_0_epoch_50.png)
-![Alt text](output/inference_results/epoch_50/val_results/image_2_epoch_50.png)
-![Alt text](output/inference_results/epoch_50/val_results/image_4_epoch_50.png)
-![Alt text](output/inference_results/epoch_50/val_results/image_6_epoch_50.png)
-![Alt text](output/inference_results/epoch_50/val_results/image_8_epoch_50.png)
+![Alt text](images/val_results/image_0_epoch_50.png)
+![Alt text](imagesval_results/image_2_epoch_50.png)
+![Alt text](images/val_results/image_4_epoch_50.png)
+![Alt text](images/val_results/image_6_epoch_50.png)
+![Alt text](images/val_results/image_8_epoch_50.png)
 
 ## Installation
 
